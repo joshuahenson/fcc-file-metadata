@@ -1,0 +1,21 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "description": "Image Search Abstraction Layer",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Joshua Henson",
+  "license": "MIT"
+}

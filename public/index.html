@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>File Metadata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">
+            API Basejump: File Metadata Microservice
+        </h1>
+        <blockquote>
+            User stories:
+            <ol>
+                <li>I can submit a FormData object that includes a file upload.</li>
+                <li>When I submit something, I will receive the file size in bytes within the JSON response.</li>
+            </ol>
+        </blockquote>
+        <form class="form-inline" action="inspect" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="inputFile">File input</label>
+                <input type="file" name="input">
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div><!-- /container -->
+</body>
+
+</html>
